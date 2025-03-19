@@ -1,6 +1,3 @@
-Nils Olivier
-2025-03-21
-
 # Algae Bloom Prediction
 
 ## Introduction
@@ -9,11 +6,8 @@ This repository contains the code for the Algae Bloom Prediction project from a 
 
 The code is based on the work by [Andy Wheeler](https://github.com/drivendataorg/tick-tick-bloom/tree/main/2nd%20Place), and the code is extended by Nils Olivier. 
 
-Nils Olivier
-nolivier@kth.se
-
-Andy Wheeler
-apwheele@gmail.com
+Nils Olivier - nolivier@kth.se
+Andy Wheeler - apwheele@gmail.com
 
 ## Python Environment
 
