@@ -1466,10 +1466,10 @@ def main():
 
     # Run all visualizations
     try:
-        # visualize_temporal_patterns(train_data, figures_dir)
-        # visualize_regional_transfer(rm, train_data, figures_dir)
-        # visualize_feature_importance(rm, train_data, figures_dir)
-        # visualize_spatial_patterns(train_data, figures_dir)
+        visualize_temporal_patterns(train_data, figures_dir)
+        visualize_regional_transfer(rm, train_data, figures_dir)
+        visualize_feature_importance(rm, train_data, figures_dir)
+        visualize_spatial_patterns(train_data, figures_dir)
         create_model_comparison_figures(train_data, rm, figures_dir)
         print(f"\nAll visualizations completed and saved to {figures_dir}")
     except Exception as e:
