@@ -1,6 +1,20 @@
 Nils Olivier
 2025-03-21
 
+# Algae Bloom Prediction
+
+## Introduction
+
+This repository contains the code for the Algae Bloom Prediction project from a course in GeoAI (AG2418) at KTH Royal Institute of Technology. The project is based on a second place solution to the [DrivenData TickTickBloom competition](https://github.com/drivendataorg/tick-tick-bloom), which was submitted by Andy Wheeler. This project is an extension of that work, with the goal of reproducing the results and analyzing the results.
+
+The code is based on the work by [Andy Wheeler](https://github.com/drivendataorg/tick-tick-bloom/tree/main/2nd%20Place), and the code is extended by Nils Olivier. 
+
+Nils Olivier
+nolivier@kth.se
+
+Andy Wheeler
+apwheele@gmail.com
+
 ## Python Environment
 
 Set up a python environment using Anaconda:
@@ -13,16 +27,15 @@ Set up a python environment using Anaconda:
 Where `requirements.txt` has the necessary libraries.
 
 ## Run the Code
-everything should be run from root directory:
+everything should be run from root directory
 
-    cd ./algaebloom 
+First, prepare the local sqlite database with the data needed to run the models: 
+
     python main_prepdata.py
-
-This prepares the local sqlite database with the data needed to run the models. 
 
 Then you can run the main file:
 
-    python extenstion.py
+    python extension.py
 
 This will save a model in the `./models` folder with the current date. 
 
